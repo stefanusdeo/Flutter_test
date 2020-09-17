@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:project_news/viewTabs/addNews.dart';
 import 'package:project_news/viewTabs/category.dart';
 import 'package:project_news/viewTabs/home.dart';
 import 'package:project_news/viewTabs/news.dart';
 import 'package:project_news/viewTabs/profile.dart';
-import 'package:project_news/viewTabs/sport.dart';
-import 'package:project_news/viewTabs/teknologi.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class MainMenu extends StatefulWidget {
@@ -142,7 +139,7 @@ class _MainMenuState extends State<MainMenu> {
               },
               icon: Icon(
                 Icons.lock_open,
-                color: Colors.red,
+                color: Colors.blue,
               ),
             )
           ],
